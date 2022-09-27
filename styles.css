@@ -24,13 +24,13 @@ img {
 .bottom-left {
     width: 150px;
     position: absolute;
-    top: 1900px;
+    top: 1600px;
     left: 50px;
 }
 
 .bottom-right {
     width: 150px;
     position: absolute;
-    top: 1900px;
+    top: 1600px;
     right: 50px;
 }
