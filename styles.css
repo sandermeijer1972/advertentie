@@ -1,0 +1,36 @@
+body {
+    background-image: url(./NL-Borisinfo-adv_kerst1.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin-top: 500px;
+    width: 100vw;    
+    height: 1000px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.bottom-left {
+    width: 150px;
+    position: absolute;
+    top: 1900px;
+    left: 50px;
+}
+
+.bottom-right {
+    width: 150px;
+    position: absolute;
+    top: 1900px;
+    right: 50px;
+}
