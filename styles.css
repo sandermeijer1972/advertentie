@@ -15,10 +15,18 @@ img {
     height: 1000px;
 }
 
-.grid {
+.grid3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid4 img:nth-child(3) {
+    transform: rotate(30deg);
 }
 
 .bottom-left {
