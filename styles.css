@@ -22,10 +22,17 @@ img {
 .grid4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -40px;
 }
 
 .grid4 img:nth-child(3) {
     transform: rotate(30deg);
+}
+
+.grid5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -80px;
 }
 
 .bottom-left {
