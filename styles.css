@@ -23,7 +23,7 @@ img {
 .grid4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 
 .grid4 img:nth-child(3) {
@@ -33,7 +33,7 @@ img {
 .grid5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: -80px 60px 800px;
+    margin: -60px 60px 800px;
 }
 
 .bottom-left {
