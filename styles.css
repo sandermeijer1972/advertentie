@@ -11,7 +11,8 @@ img {
 
 .container {
     margin-top: 400px;
-    width: 90vw;    
+    width: 90vw;   
+    margin: 0 auto; 
 }
 
 .grid3 {
