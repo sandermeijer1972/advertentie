@@ -33,13 +33,14 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: -80px;
+    margin-bottom: 1200px;
 }
 
 .bottom-left {
-    width: 150px;
+    width: 170px;
     position: absolute;
     top: 1600px;
-    left: 50px;
+    left: 40px;
 }
 
 .bottom-right {
