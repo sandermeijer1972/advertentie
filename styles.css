@@ -54,6 +54,11 @@ img {
     gap: 15px;
 }
 
+.grid6 img:nth-child(3) {
+    transform: rotate(5deg);
+    margin-left: 20px;
+}
+
 .sokken {
     display: grid;
     grid-template-columns: 1.5fr 2fr 1fr 1fr 1fr;
