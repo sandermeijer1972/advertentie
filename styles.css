@@ -7,33 +7,56 @@ body {
 
 img {
     max-width: 100%;
+    margin: auto 0;
 }
 
 .container {
     width: 90vw;   
-    margin: 400px auto 0; 
+    margin: 430px auto 0; 
 }
 
 .grid3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 40px;
+    gap: 10px;
+}
+
+.grid3 img:nth-child(1) {
+    transform: rotate(-10deg);
 }
 
 .grid4 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr 1fr 0.8fr 1fr 0.5fr;
     margin-top: -20px;
 }
 
-.grid4 img:nth-child(3) {
-    transform: rotate(30deg);
+.ballen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;  
+}
+
+.ballen img {
+    transform: scale(1.7);
 }
 
 .grid5 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: -40px 60px 800px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 60px;
+}
+
+.grid6 {
+    display: grid;
+    grid-template-columns: 0.8fr 0.7fr 1.2fr 1fr;
+    margin: 0 60px 800px;
+    gap: 15px;
+}
+
+.sokken {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr 1fr 1fr;
 }
 
 .bottom-left {
@@ -41,6 +64,7 @@ img {
     position: absolute;
     top: 1600px;
     left: 40px;
+    transform: rotate(-30deg);
 }
 
 .bottom-right {
@@ -48,4 +72,5 @@ img {
     position: absolute;
     top: 1600px;
     right: 40px;
+    transform: rotate(30deg);
 }
