@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
 }
 
+
 img {
     max-width: 100%;
     margin: auto 0;
@@ -28,13 +29,14 @@ img {
 
 .grid4 {
     display: grid;
-    grid-template-columns: 0.8fr 1fr 1fr 0.8fr 1fr 0.5fr;
-    margin-top: -20px;
+    grid-template-columns:1fr 1fr 0.7fr 0.7fr 1fr 1fr;
+    gap: 10px;
+    /* margin-top: -20px; */
 }
 
 .ballen {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;  
+    grid-template-columns: 0.8fr 0.4fr 0.5fr 0.4fr;  
 }
 
 .ballen img {
@@ -43,8 +45,8 @@ img {
 
 .grid5 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 60px;
+    grid-template-columns: 1fr 1.5fr;
+    margin: 50px 60px;
 }
 
 .grid6 {
@@ -69,13 +71,11 @@ img {
     position: absolute;
     top: 1600px;
     left: 40px;
-    transform: rotate(-30deg);
 }
 
 .bottom-right {
-    width: 170px;
+    width: 200px;
     position: absolute;
     top: 1600px;
     right: 40px;
-    transform: rotate(30deg);
 }
