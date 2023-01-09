@@ -19,12 +19,12 @@ img {
 
 .grid3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 0.6fr;
-    margin: 0 40px;
-    gap: 20px;
+    grid-template-columns: 1fr 0.6fr 1fr;
+    margin: 0 50px;
+    gap: 40px;
 }
 
-/* .grid3 img:nth-child(1) {
+/* .grid3 img:nth-child(2) {
     transform: rotate(-10deg);
 } */
 
