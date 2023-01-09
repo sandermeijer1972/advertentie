@@ -1,5 +1,6 @@
 body {
-    background-image: url(./NL-Borisinfo-adv_kerst1.jpg);
+    background-color: #f0d3a7;
+    background-image: url(./standaard/NL-Borisinfo-adv-proef4.jpg);
     background-size: 100vw;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -13,19 +14,19 @@ img {
 
 .container {
     width: 90vw;   
-    margin: 430px auto 0; 
+    margin: 840px auto 750px; 
 }
 
 .grid3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 0.6fr;
     margin: 0 40px;
-    gap: 10px;
+    gap: 20px;
 }
 
-.grid3 img:nth-child(1) {
+/* .grid3 img:nth-child(1) {
     transform: rotate(-10deg);
-}
+} */
 
 .grid4 {
     display: grid;
